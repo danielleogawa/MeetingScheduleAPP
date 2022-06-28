@@ -1,0 +1,691 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD001E79AFB0600043403202 /* Pods_MeetingScheduleApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CB96647E1B31177E7F2EAD1 /* Pods_MeetingScheduleApp.framework */; };
+		EE255357286B5B5200E0BD99 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE255356286B5B5200E0BD99 /* AppDelegate.swift */; };
+		EE255359286B5B5200E0BD99 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE255358286B5B5200E0BD99 /* SceneDelegate.swift */; };
+		EE25535B286B5B5200E0BD99 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE25535A286B5B5200E0BD99 /* LoginViewController.swift */; };
+		EE25535E286B5B5200E0BD99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE25535C286B5B5200E0BD99 /* Main.storyboard */; };
+		EE255360286B5B5300E0BD99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE25535F286B5B5300E0BD99 /* Assets.xcassets */; };
+		EE255363286B5B5300E0BD99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE255361286B5B5300E0BD99 /* LaunchScreen.storyboard */; };
+		EE25536E286B5B5300E0BD99 /* MeetingScheduleAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE25536D286B5B5300E0BD99 /* MeetingScheduleAppTests.swift */; };
+		EE255378286B5B5300E0BD99 /* MeetingScheduleAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE255377286B5B5300E0BD99 /* MeetingScheduleAppUITests.swift */; };
+		EE25537A286B5B5300E0BD99 /* MeetingScheduleAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE255379286B5B5300E0BD99 /* MeetingScheduleAppUITestsLaunchTests.swift */; };
+		EE255387286B5DF300E0BD99 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EE255386286B5DF300E0BD99 /* GoogleService-Info.plist */; };
+		EE255388286B5DF300E0BD99 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EE255386286B5DF300E0BD99 /* GoogleService-Info.plist */; };
+		EE255389286B5DF300E0BD99 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EE255386286B5DF300E0BD99 /* GoogleService-Info.plist */; };
+		EE25538D286B6BD200E0BD99 /* CadastroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE25538C286B6BD200E0BD99 /* CadastroViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE25536A286B5B5300E0BD99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE25534B286B5B5200E0BD99 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE255352286B5B5200E0BD99;
+			remoteInfo = MeetingScheduleApp;
+		};
+		EE255374286B5B5300E0BD99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE25534B286B5B5200E0BD99 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE255352286B5B5200E0BD99;
+			remoteInfo = MeetingScheduleApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8CB96647E1B31177E7F2EAD1 /* Pods_MeetingScheduleApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MeetingScheduleApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFF905A32EAA6A3353C361DB /* Pods-MeetingScheduleApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeetingScheduleApp.debug.xcconfig"; path = "Target Support Files/Pods-MeetingScheduleApp/Pods-MeetingScheduleApp.debug.xcconfig"; sourceTree = "<group>"; };
+		E6489E2A7485E1DA2563009F /* Pods-MeetingScheduleApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeetingScheduleApp.release.xcconfig"; path = "Target Support Files/Pods-MeetingScheduleApp/Pods-MeetingScheduleApp.release.xcconfig"; sourceTree = "<group>"; };
+		EE255353286B5B5200E0BD99 /* MeetingScheduleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeetingScheduleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE255356286B5B5200E0BD99 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EE255358286B5B5200E0BD99 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EE25535A286B5B5200E0BD99 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		EE25535D286B5B5200E0BD99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE25535F286B5B5300E0BD99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE255362286B5B5300E0BD99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE255364286B5B5300E0BD99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE255369286B5B5300E0BD99 /* MeetingScheduleAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeetingScheduleAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE25536D286B5B5300E0BD99 /* MeetingScheduleAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingScheduleAppTests.swift; sourceTree = "<group>"; };
+		EE255373286B5B5300E0BD99 /* MeetingScheduleAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeetingScheduleAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE255377286B5B5300E0BD99 /* MeetingScheduleAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingScheduleAppUITests.swift; sourceTree = "<group>"; };
+		EE255379286B5B5300E0BD99 /* MeetingScheduleAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingScheduleAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EE255386286B5DF300E0BD99 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		EE25538C286B6BD200E0BD99 /* CadastroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CadastroViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE255350286B5B5200E0BD99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD001E79AFB0600043403202 /* Pods_MeetingScheduleApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE255366286B5B5300E0BD99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE255370286B5B5300E0BD99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B36809E464D6783C45F6FE45 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AFF905A32EAA6A3353C361DB /* Pods-MeetingScheduleApp.debug.xcconfig */,
+				E6489E2A7485E1DA2563009F /* Pods-MeetingScheduleApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EE25534A286B5B5200E0BD99 = {
+			isa = PBXGroup;
+			children = (
+				EE255355286B5B5200E0BD99 /* MeetingScheduleApp */,
+				EE25536C286B5B5300E0BD99 /* MeetingScheduleAppTests */,
+				EE255376286B5B5300E0BD99 /* MeetingScheduleAppUITests */,
+				EE255354286B5B5200E0BD99 /* Products */,
+				B36809E464D6783C45F6FE45 /* Pods */,
+				F1C843E7A04D79E27A27726E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EE255354286B5B5200E0BD99 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE255353286B5B5200E0BD99 /* MeetingScheduleApp.app */,
+				EE255369286B5B5300E0BD99 /* MeetingScheduleAppTests.xctest */,
+				EE255373286B5B5300E0BD99 /* MeetingScheduleAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE255355286B5B5200E0BD99 /* MeetingScheduleApp */ = {
+			isa = PBXGroup;
+			children = (
+				EE255356286B5B5200E0BD99 /* AppDelegate.swift */,
+				EE255358286B5B5200E0BD99 /* SceneDelegate.swift */,
+				EE25535A286B5B5200E0BD99 /* LoginViewController.swift */,
+				EE25535C286B5B5200E0BD99 /* Main.storyboard */,
+				EE25538C286B6BD200E0BD99 /* CadastroViewController.swift */,
+				EE25535F286B5B5300E0BD99 /* Assets.xcassets */,
+				EE255361286B5B5300E0BD99 /* LaunchScreen.storyboard */,
+				EE255364286B5B5300E0BD99 /* Info.plist */,
+				EE255386286B5DF300E0BD99 /* GoogleService-Info.plist */,
+			);
+			path = MeetingScheduleApp;
+			sourceTree = "<group>";
+		};
+		EE25536C286B5B5300E0BD99 /* MeetingScheduleAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE25536D286B5B5300E0BD99 /* MeetingScheduleAppTests.swift */,
+			);
+			path = MeetingScheduleAppTests;
+			sourceTree = "<group>";
+		};
+		EE255376286B5B5300E0BD99 /* MeetingScheduleAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EE255377286B5B5300E0BD99 /* MeetingScheduleAppUITests.swift */,
+				EE255379286B5B5300E0BD99 /* MeetingScheduleAppUITestsLaunchTests.swift */,
+			);
+			path = MeetingScheduleAppUITests;
+			sourceTree = "<group>";
+		};
+		F1C843E7A04D79E27A27726E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8CB96647E1B31177E7F2EAD1 /* Pods_MeetingScheduleApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE255352286B5B5200E0BD99 /* MeetingScheduleApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE25537D286B5B5300E0BD99 /* Build configuration list for PBXNativeTarget "MeetingScheduleApp" */;
+			buildPhases = (
+				70662707A6732A73F8CC8678 /* [CP] Check Pods Manifest.lock */,
+				EE25534F286B5B5200E0BD99 /* Sources */,
+				EE255350286B5B5200E0BD99 /* Frameworks */,
+				EE255351286B5B5200E0BD99 /* Resources */,
+				3BC58ED66A330665C4D3E682 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MeetingScheduleApp;
+			productName = MeetingScheduleApp;
+			productReference = EE255353286B5B5200E0BD99 /* MeetingScheduleApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE255368286B5B5300E0BD99 /* MeetingScheduleAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE255380286B5B5300E0BD99 /* Build configuration list for PBXNativeTarget "MeetingScheduleAppTests" */;
+			buildPhases = (
+				EE255365286B5B5300E0BD99 /* Sources */,
+				EE255366286B5B5300E0BD99 /* Frameworks */,
+				EE255367286B5B5300E0BD99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE25536B286B5B5300E0BD99 /* PBXTargetDependency */,
+			);
+			name = MeetingScheduleAppTests;
+			productName = MeetingScheduleAppTests;
+			productReference = EE255369286B5B5300E0BD99 /* MeetingScheduleAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EE255372286B5B5300E0BD99 /* MeetingScheduleAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE255383286B5B5300E0BD99 /* Build configuration list for PBXNativeTarget "MeetingScheduleAppUITests" */;
+			buildPhases = (
+				EE25536F286B5B5300E0BD99 /* Sources */,
+				EE255370286B5B5300E0BD99 /* Frameworks */,
+				EE255371286B5B5300E0BD99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE255375286B5B5300E0BD99 /* PBXTargetDependency */,
+			);
+			name = MeetingScheduleAppUITests;
+			productName = MeetingScheduleAppUITests;
+			productReference = EE255373286B5B5300E0BD99 /* MeetingScheduleAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE25534B286B5B5200E0BD99 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					EE255352286B5B5200E0BD99 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					EE255368286B5B5300E0BD99 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = EE255352286B5B5200E0BD99;
+					};
+					EE255372286B5B5300E0BD99 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = EE255352286B5B5200E0BD99;
+					};
+				};
+			};
+			buildConfigurationList = EE25534E286B5B5200E0BD99 /* Build configuration list for PBXProject "MeetingScheduleApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE25534A286B5B5200E0BD99;
+			productRefGroup = EE255354286B5B5200E0BD99 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE255352286B5B5200E0BD99 /* MeetingScheduleApp */,
+				EE255368286B5B5300E0BD99 /* MeetingScheduleAppTests */,
+				EE255372286B5B5300E0BD99 /* MeetingScheduleAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE255351286B5B5200E0BD99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE255363286B5B5300E0BD99 /* LaunchScreen.storyboard in Resources */,
+				EE255387286B5DF300E0BD99 /* GoogleService-Info.plist in Resources */,
+				EE255360286B5B5300E0BD99 /* Assets.xcassets in Resources */,
+				EE25535E286B5B5200E0BD99 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE255367286B5B5300E0BD99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE255388286B5DF300E0BD99 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE255371286B5B5300E0BD99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE255389286B5DF300E0BD99 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3BC58ED66A330665C4D3E682 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MeetingScheduleApp/Pods-MeetingScheduleApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MeetingScheduleApp/Pods-MeetingScheduleApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MeetingScheduleApp/Pods-MeetingScheduleApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		70662707A6732A73F8CC8678 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MeetingScheduleApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE25534F286B5B5200E0BD99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE25535B286B5B5200E0BD99 /* LoginViewController.swift in Sources */,
+				EE255357286B5B5200E0BD99 /* AppDelegate.swift in Sources */,
+				EE255359286B5B5200E0BD99 /* SceneDelegate.swift in Sources */,
+				EE25538D286B6BD200E0BD99 /* CadastroViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE255365286B5B5300E0BD99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE25536E286B5B5300E0BD99 /* MeetingScheduleAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE25536F286B5B5300E0BD99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE255378286B5B5300E0BD99 /* MeetingScheduleAppUITests.swift in Sources */,
+				EE25537A286B5B5300E0BD99 /* MeetingScheduleAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE25536B286B5B5300E0BD99 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE255352286B5B5200E0BD99 /* MeetingScheduleApp */;
+			targetProxy = EE25536A286B5B5300E0BD99 /* PBXContainerItemProxy */;
+		};
+		EE255375286B5B5300E0BD99 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE255352286B5B5200E0BD99 /* MeetingScheduleApp */;
+			targetProxy = EE255374286B5B5300E0BD99 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE25535C286B5B5200E0BD99 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE25535D286B5B5200E0BD99 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE255361286B5B5300E0BD99 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE255362286B5B5300E0BD99 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE25537B286B5B5300E0BD99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EE25537C286B5B5300E0BD99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE25537E286B5B5300E0BD99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFF905A32EAA6A3353C361DB /* Pods-MeetingScheduleApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N34W3XSZ62;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MeetingScheduleApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = daniellenogawa.com.MeetingScheduleApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE25537F286B5B5300E0BD99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6489E2A7485E1DA2563009F /* Pods-MeetingScheduleApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N34W3XSZ62;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MeetingScheduleApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = daniellenogawa.com.MeetingScheduleApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EE255381286B5B5300E0BD99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N34W3XSZ62;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = daniellenogawa.com.MeetingScheduleAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MeetingScheduleApp.app/MeetingScheduleApp";
+			};
+			name = Debug;
+		};
+		EE255382286B5B5300E0BD99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N34W3XSZ62;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = daniellenogawa.com.MeetingScheduleAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MeetingScheduleApp.app/MeetingScheduleApp";
+			};
+			name = Release;
+		};
+		EE255384286B5B5300E0BD99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N34W3XSZ62;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = daniellenogawa.com.MeetingScheduleAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MeetingScheduleApp;
+			};
+			name = Debug;
+		};
+		EE255385286B5B5300E0BD99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N34W3XSZ62;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = daniellenogawa.com.MeetingScheduleAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MeetingScheduleApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE25534E286B5B5200E0BD99 /* Build configuration list for PBXProject "MeetingScheduleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE25537B286B5B5300E0BD99 /* Debug */,
+				EE25537C286B5B5300E0BD99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE25537D286B5B5300E0BD99 /* Build configuration list for PBXNativeTarget "MeetingScheduleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE25537E286B5B5300E0BD99 /* Debug */,
+				EE25537F286B5B5300E0BD99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE255380286B5B5300E0BD99 /* Build configuration list for PBXNativeTarget "MeetingScheduleAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE255381286B5B5300E0BD99 /* Debug */,
+				EE255382286B5B5300E0BD99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE255383286B5B5300E0BD99 /* Build configuration list for PBXNativeTarget "MeetingScheduleAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE255384286B5B5300E0BD99 /* Debug */,
+				EE255385286B5B5300E0BD99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE25534B286B5B5200E0BD99 /* Project object */;
+}
