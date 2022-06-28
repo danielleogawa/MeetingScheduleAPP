@@ -20,7 +20,6 @@ class LoginViewController: UIViewController {
         styleTextField()
     }
     
-    
     private func styleTextField(){
         emailTextField.clipsToBounds = true
         emailTextField.layer.borderWidth = 1
@@ -45,8 +44,8 @@ class LoginViewController: UIViewController {
 extension LoginViewController: LoginControllerViewModelDelegate {
     func loginSucessed() {
         performSegue(withIdentifier: "userMeetings", sender: self)
-        emailTextField.layer.borderColor = UIColor.clear.cgColor
-        passwordTextField.layer.borderColor = UIColor.clear.cgColor
+        emailTextField.layer.borderColor = UIColor.black.cgColor
+        passwordTextField.layer.borderColor = UIColor.black.cgColor
     }
     
     func cannotLogin() {

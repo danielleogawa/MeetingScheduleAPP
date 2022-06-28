@@ -11,6 +11,8 @@
 		EE198161286B778400D78948 /* ReunioesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE198160286B778400D78948 /* ReunioesViewController.swift */; };
 		EE198163286B7AA700D78948 /* CadastroControllerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE198162286B7AA700D78948 /* CadastroControllerViewModel.swift */; };
 		EE198165286B7CC500D78948 /* LoginControllerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE198164286B7CC500D78948 /* LoginControllerViewModel.swift */; };
+		EE198167286B8D8A00D78948 /* NovaReuniaoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE198166286B8D8A00D78948 /* NovaReuniaoViewController.swift */; };
+		EE198169286B91C100D78948 /* ReunioesControllerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE198168286B91C100D78948 /* ReunioesControllerViewModel.swift */; };
 		EE255357286B5B5200E0BD99 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE255356286B5B5200E0BD99 /* AppDelegate.swift */; };
 		EE255359286B5B5200E0BD99 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE255358286B5B5200E0BD99 /* SceneDelegate.swift */; };
 		EE25535B286B5B5200E0BD99 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE25535A286B5B5200E0BD99 /* LoginViewController.swift */; };
@@ -50,6 +52,8 @@
 		EE198160286B778400D78948 /* ReunioesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReunioesViewController.swift; sourceTree = "<group>"; };
 		EE198162286B7AA700D78948 /* CadastroControllerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CadastroControllerViewModel.swift; sourceTree = "<group>"; };
 		EE198164286B7CC500D78948 /* LoginControllerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginControllerViewModel.swift; sourceTree = "<group>"; };
+		EE198166286B8D8A00D78948 /* NovaReuniaoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NovaReuniaoViewController.swift; sourceTree = "<group>"; };
+		EE198168286B91C100D78948 /* ReunioesControllerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReunioesControllerViewModel.swift; sourceTree = "<group>"; };
 		EE255353286B5B5200E0BD99 /* MeetingScheduleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeetingScheduleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE255356286B5B5200E0BD99 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EE255358286B5B5200E0BD99 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -132,10 +136,12 @@
 				EE25535A286B5B5200E0BD99 /* LoginViewController.swift */,
 				EE198164286B7CC500D78948 /* LoginControllerViewModel.swift */,
 				EE25535C286B5B5200E0BD99 /* Main.storyboard */,
+				EE198166286B8D8A00D78948 /* NovaReuniaoViewController.swift */,
 				EE25538C286B6BD200E0BD99 /* CadastroViewController.swift */,
 				EE198162286B7AA700D78948 /* CadastroControllerViewModel.swift */,
 				EE198160286B778400D78948 /* ReunioesViewController.swift */,
 				EE25535F286B5B5300E0BD99 /* Assets.xcassets */,
+				EE198168286B91C100D78948 /* ReunioesControllerViewModel.swift */,
 				EE255361286B5B5300E0BD99 /* LaunchScreen.storyboard */,
 				EE255364286B5B5300E0BD99 /* Info.plist */,
 				EE255386286B5DF300E0BD99 /* GoogleService-Info.plist */,
@@ -346,6 +352,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE198167286B8D8A00D78948 /* NovaReuniaoViewController.swift in Sources */,
+				EE198169286B91C100D78948 /* ReunioesControllerViewModel.swift in Sources */,
 				EE198161286B778400D78948 /* ReunioesViewController.swift in Sources */,
 				EE25535B286B5B5200E0BD99 /* LoginViewController.swift in Sources */,
 				EE255357286B5B5200E0BD99 /* AppDelegate.swift in Sources */,
