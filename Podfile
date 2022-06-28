@@ -10,6 +10,7 @@ target 'MeetingScheduleApp' do
 pod 'FirebaseAuth'
 pod 'FirebaseFirestore'
 
+
 inhibit_all_warnings!
 
 end

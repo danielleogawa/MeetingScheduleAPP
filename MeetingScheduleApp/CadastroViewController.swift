@@ -7,13 +7,16 @@
 
 import UIKit
 
+
 class CadastroViewController: UIViewController {
 
     @IBOutlet weak var emailTextField: UITextField!
     @IBOutlet weak var senhaTextField: UITextField!
     
+    let viewModel = CadastroControllerViewModel()
     override func viewDidLoad() {
         super.viewDidLoad()
+        viewModel.delegate = self
         styleTextField()
 
     }
@@ -34,5 +37,14 @@ class CadastroViewController: UIViewController {
     }
     
     @IBAction func nextButtonAction(_ sender: Any) {
+        viewModel.registerUser(email: emailTextField.text, senha: senhaTextField.text)
     }
+}
+
+extension CadastroViewController: CadastroControllerViewModelDelegate{
+    func loginSucessed() {
+        performSegue(withIdentifier: "newUserMeetings", sender: self)
+    }
+    
+    
 }

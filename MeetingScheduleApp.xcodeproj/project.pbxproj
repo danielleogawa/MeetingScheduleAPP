@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		BD001E79AFB0600043403202 /* Pods_MeetingScheduleApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CB96647E1B31177E7F2EAD1 /* Pods_MeetingScheduleApp.framework */; };
+		EE198161286B778400D78948 /* ReunioesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE198160286B778400D78948 /* ReunioesViewController.swift */; };
+		EE198163286B7AA700D78948 /* CadastroControllerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE198162286B7AA700D78948 /* CadastroControllerViewModel.swift */; };
+		EE198165286B7CC500D78948 /* LoginControllerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE198164286B7CC500D78948 /* LoginControllerViewModel.swift */; };
 		EE255357286B5B5200E0BD99 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE255356286B5B5200E0BD99 /* AppDelegate.swift */; };
 		EE255359286B5B5200E0BD99 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE255358286B5B5200E0BD99 /* SceneDelegate.swift */; };
 		EE25535B286B5B5200E0BD99 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE25535A286B5B5200E0BD99 /* LoginViewController.swift */; };
@@ -44,6 +47,9 @@
 		8CB96647E1B31177E7F2EAD1 /* Pods_MeetingScheduleApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MeetingScheduleApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFF905A32EAA6A3353C361DB /* Pods-MeetingScheduleApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeetingScheduleApp.debug.xcconfig"; path = "Target Support Files/Pods-MeetingScheduleApp/Pods-MeetingScheduleApp.debug.xcconfig"; sourceTree = "<group>"; };
 		E6489E2A7485E1DA2563009F /* Pods-MeetingScheduleApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeetingScheduleApp.release.xcconfig"; path = "Target Support Files/Pods-MeetingScheduleApp/Pods-MeetingScheduleApp.release.xcconfig"; sourceTree = "<group>"; };
+		EE198160286B778400D78948 /* ReunioesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReunioesViewController.swift; sourceTree = "<group>"; };
+		EE198162286B7AA700D78948 /* CadastroControllerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CadastroControllerViewModel.swift; sourceTree = "<group>"; };
+		EE198164286B7CC500D78948 /* LoginControllerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginControllerViewModel.swift; sourceTree = "<group>"; };
 		EE255353286B5B5200E0BD99 /* MeetingScheduleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeetingScheduleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE255356286B5B5200E0BD99 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EE255358286B5B5200E0BD99 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -124,8 +130,11 @@
 				EE255356286B5B5200E0BD99 /* AppDelegate.swift */,
 				EE255358286B5B5200E0BD99 /* SceneDelegate.swift */,
 				EE25535A286B5B5200E0BD99 /* LoginViewController.swift */,
+				EE198164286B7CC500D78948 /* LoginControllerViewModel.swift */,
 				EE25535C286B5B5200E0BD99 /* Main.storyboard */,
 				EE25538C286B6BD200E0BD99 /* CadastroViewController.swift */,
+				EE198162286B7AA700D78948 /* CadastroControllerViewModel.swift */,
+				EE198160286B778400D78948 /* ReunioesViewController.swift */,
 				EE25535F286B5B5300E0BD99 /* Assets.xcassets */,
 				EE255361286B5B5300E0BD99 /* LaunchScreen.storyboard */,
 				EE255364286B5B5300E0BD99 /* Info.plist */,
@@ -337,9 +346,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE198161286B778400D78948 /* ReunioesViewController.swift in Sources */,
 				EE25535B286B5B5200E0BD99 /* LoginViewController.swift in Sources */,
 				EE255357286B5B5200E0BD99 /* AppDelegate.swift in Sources */,
+				EE198165286B7CC500D78948 /* LoginControllerViewModel.swift in Sources */,
 				EE255359286B5B5200E0BD99 /* SceneDelegate.swift in Sources */,
+				EE198163286B7AA700D78948 /* CadastroControllerViewModel.swift in Sources */,
 				EE25538D286B6BD200E0BD99 /* CadastroViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
