@@ -15,10 +15,16 @@ class NovaReuniaoViewController: UIViewController {
     @IBOutlet weak var horaTextField: UITextField!
     
     let viewModel = NovaReuniaoControllerViewModel()
+    let datePicker = UIDatePicker()
+    let horarioPicker = UIDatePicker()
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        viewModel.delegate = self
+    
         styleTextField()
+        criarDatePicker()
+        criarHorarioPicker()
     }
     
     private func styleTextField(){
@@ -45,13 +51,91 @@ class NovaReuniaoViewController: UIViewController {
         horaTextField.layer.maskedCorners = [.layerMaxXMaxYCorner, .layerMinXMaxYCorner]
         
     }
+    // MARK: - costumização do textfield de data
+    
+    private func criarToolBar() -> UIToolbar {
+        let toolBar = UIToolbar()
+        toolBar.sizeToFit()
+        
+        let salvarButton = UIBarButtonItem(barButtonSystemItem: .save, target: nil, action: #selector(salvarButtonAction))
+        toolBar.setItems([salvarButton], animated: true)
+        return toolBar
+        
+    }
+    
+    private func criarDatePicker(){
+        datePicker.preferredDatePickerStyle = .wheels
+        datePicker.datePickerMode = .date
+        dataTextfield.inputView = datePicker
+        dataTextfield.inputAccessoryView = criarToolBar()
+    }
+    
+    @objc func salvarButtonAction(){
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateStyle = .medium
+        dateFormatter.timeStyle = .none
+        
+        self.dataTextfield.text = dateFormatter.string(from: datePicker.date)
+        self.view.endEditing(true)
+    }
+    
+    // MARK: - costumização do textfield de horario
+    
+    private func criarToolBarParaHorario() -> UIToolbar {
+        let toolBar = UIToolbar()
+        toolBar.sizeToFit()
+        
+        let salvarButton = UIBarButtonItem(barButtonSystemItem: .save, target: nil, action: #selector(salvarButtonActionParaHorario))
+        toolBar.setItems([salvarButton], animated: true)
+        return toolBar
+        
+    }
+    
+    private func criarHorarioPicker(){
+        horarioPicker.preferredDatePickerStyle = .wheels
+        horarioPicker.datePickerMode = .time
+        horaTextField.inputView = horarioPicker
+        horaTextField.inputAccessoryView = criarToolBarParaHorario()
+    }
+    
+    @objc func salvarButtonActionParaHorario(){
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateStyle = .none
+        dateFormatter.timeStyle = .short
+        
+        self.horaTextField.text = dateFormatter.string(from: horarioPicker.date)
+        self.view.endEditing(true)
+    }
+    
     @IBAction func closeActionButton(_ sender: Any) {
         dismiss(animated: true)
     }
     
     @IBAction func addButtonAction(_ sender: Any) {
-        viewModel.adicionarReuniao(titulo: tituloTextField.text, descricao: descricaoTextField.text, endereco: enderecoTextField.text, data: dataTextfield.text, horario: horaTextField.text)
+        viewModel.adicionarReuniao(
+            titulo: tituloTextField.text,
+            descricao: descricaoTextField.text,
+            endereco: enderecoTextField.text,
+            data: dataTextfield.text,
+            horario: horaTextField.text)
+    }
+    
+}
+
+extension NovaReuniaoViewController: NovaReuniaoControllerViewModelDelegate {
+    func fecharTela() {
         dismiss(animated: true)
     }
+    
+    func alertaInformacoesInvalidas() {
+        let alerta = UIAlertController(title: "Ops!", message: "Não esqueça de preencher todos os campos", preferredStyle: .alert)
+        
+        let okAction = UIAlertAction(title: "Ok", style: .default, handler: nil)
+        
+        alerta.addAction(okAction)
+        present(alerta, animated: true, completion: nil)
+        
+    }
+    
     
 }

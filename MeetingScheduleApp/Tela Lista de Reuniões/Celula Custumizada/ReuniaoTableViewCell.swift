@@ -18,7 +18,7 @@ class ReuniaoTableViewCell: UITableViewCell {
         titleLabel.text = viewModel.getTitulo()
         descriptionLabel.text = viewModel.getDescricao()
         dateLabel.text = viewModel.getData()
-        timeLabel.text = viewModel.getData()
+        timeLabel.text = viewModel.getHorario()
     }
 
 }

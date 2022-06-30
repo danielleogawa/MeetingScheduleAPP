@@ -12,7 +12,7 @@ class Service {
     
     let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
     
-    func save(titulo: String?, descricao: String?, endereco: String?, data: String?, hora: String?){
+    func save(titulo: String, descricao: String, endereco: String, data: String, hora: String){
         let reuniao: Reuniao = .init(context: context)
         reuniao.titulo = titulo
         reuniao.descricao = descricao

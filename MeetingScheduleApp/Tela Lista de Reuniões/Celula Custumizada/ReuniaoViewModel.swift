@@ -14,19 +14,19 @@ class ReuniaoViewModel {
         self.reuniao = reuniao
     }
     
-    func getTitulo() -> String {
-        return reuniao.titulo ?? ""
+    func getTitulo() -> String? {
+        return reuniao.titulo
     }
     
-    func getDescricao() -> String {
-        return reuniao.descricao ?? ""
+    func getDescricao() -> String? {
+        return reuniao.descricao
     }
     
-    func getData() -> String {
-        return reuniao.data ?? ""
+    func getData() -> String? {
+        return reuniao.data
     }
     
-    func getHorario() -> String {
-        return reuniao.hora ?? ""
+    func getHorario() -> String? {
+        return reuniao.hora
     }
 }
