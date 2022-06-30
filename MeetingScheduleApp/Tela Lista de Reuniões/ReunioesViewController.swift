@@ -11,7 +11,6 @@ class ReunioesViewController: UIViewController {
     @IBOutlet weak var meetingsListTableView: UITableView!
     
     let viewModel = ReunioesControllerViewModel()
-    let addNovaReuniaoViewModel = NovaReuniaoControllerViewModel()
     
     override func viewDidLoad() {
         super.viewDidLoad()
