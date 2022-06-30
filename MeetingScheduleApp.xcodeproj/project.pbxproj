@@ -26,6 +26,23 @@
 		EE255388286B5DF300E0BD99 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EE255386286B5DF300E0BD99 /* GoogleService-Info.plist */; };
 		EE255389286B5DF300E0BD99 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EE255386286B5DF300E0BD99 /* GoogleService-Info.plist */; };
 		EE25538D286B6BD200E0BD99 /* CadastroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE25538C286B6BD200E0BD99 /* CadastroViewController.swift */; };
+		EE5A0B51286DD084006F4351 /* NovaReuniaoControllerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5A0B50286DD084006F4351 /* NovaReuniaoControllerViewModel.swift */; };
+		EE5A0B54286DD0B3006F4351 /* Reuniao.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EE5A0B52286DD0B3006F4351 /* Reuniao.xcdatamodeld */; };
+		EE5A0B57286DD4E7006F4351 /* Reuniao+CoreDataClass copy.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5A0B55286DD4E7006F4351 /* Reuniao+CoreDataClass copy.swift */; };
+		EE5A0B58286DD4E7006F4351 /* Reuniao+CoreDataClass copy.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5A0B55286DD4E7006F4351 /* Reuniao+CoreDataClass copy.swift */; };
+		EE5A0B59286DD4E7006F4351 /* Reuniao+CoreDataClass copy.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5A0B55286DD4E7006F4351 /* Reuniao+CoreDataClass copy.swift */; };
+		EE5A0B5A286DD4E7006F4351 /* Reuniao+CoreDataProperties copy.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5A0B56286DD4E7006F4351 /* Reuniao+CoreDataProperties copy.swift */; };
+		EE5A0B5B286DD4E7006F4351 /* Reuniao+CoreDataProperties copy.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5A0B56286DD4E7006F4351 /* Reuniao+CoreDataProperties copy.swift */; };
+		EE5A0B5C286DD4E7006F4351 /* Reuniao+CoreDataProperties copy.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5A0B56286DD4E7006F4351 /* Reuniao+CoreDataProperties copy.swift */; };
+		EE5A0B5F286DD55F006F4351 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5A0B5E286DD55F006F4351 /* Service.swift */; };
+		EE5A0B60286DD55F006F4351 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5A0B5E286DD55F006F4351 /* Service.swift */; };
+		EE5A0B61286DD55F006F4351 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5A0B5E286DD55F006F4351 /* Service.swift */; };
+		EE5A0B63286DD99B006F4351 /* ReuniaoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5A0B62286DD99B006F4351 /* ReuniaoTableViewCell.swift */; };
+		EE5A0B64286DD99B006F4351 /* ReuniaoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5A0B62286DD99B006F4351 /* ReuniaoTableViewCell.swift */; };
+		EE5A0B65286DD99B006F4351 /* ReuniaoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5A0B62286DD99B006F4351 /* ReuniaoTableViewCell.swift */; };
+		EE5A0B67286DDA6A006F4351 /* ReuniaoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5A0B66286DDA6A006F4351 /* ReuniaoViewModel.swift */; };
+		EE5A0B68286DDA6A006F4351 /* ReuniaoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5A0B66286DDA6A006F4351 /* ReuniaoViewModel.swift */; };
+		EE5A0B69286DDA6A006F4351 /* ReuniaoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5A0B66286DDA6A006F4351 /* ReuniaoViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +86,13 @@
 		EE255379286B5B5300E0BD99 /* MeetingScheduleAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingScheduleAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		EE255386286B5DF300E0BD99 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		EE25538C286B6BD200E0BD99 /* CadastroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CadastroViewController.swift; sourceTree = "<group>"; };
+		EE5A0B50286DD084006F4351 /* NovaReuniaoControllerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NovaReuniaoControllerViewModel.swift; sourceTree = "<group>"; };
+		EE5A0B53286DD0B3006F4351 /* Reuniao.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Reuniao.xcdatamodel; sourceTree = "<group>"; };
+		EE5A0B55286DD4E7006F4351 /* Reuniao+CoreDataClass copy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Reuniao+CoreDataClass copy.swift"; sourceTree = "<group>"; };
+		EE5A0B56286DD4E7006F4351 /* Reuniao+CoreDataProperties copy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Reuniao+CoreDataProperties copy.swift"; sourceTree = "<group>"; };
+		EE5A0B5E286DD55F006F4351 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		EE5A0B62286DD99B006F4351 /* ReuniaoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReuniaoTableViewCell.swift; sourceTree = "<group>"; };
+		EE5A0B66286DDA6A006F4351 /* ReuniaoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReuniaoViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,20 +155,19 @@
 		EE255355286B5B5200E0BD99 /* MeetingScheduleApp */ = {
 			isa = PBXGroup;
 			children = (
+				EE5A0B5D286DD531006F4351 /* Entities */,
+				EE5A0B4F286DD056006F4351 /* Tela Cadastrar Nova Reunião */,
+				EE5A0B4E286DD02E006F4351 /* Tela Lista de Reuniões */,
+				EE5A0B4D286DCFFD006F4351 /* Tela Cadastro Usuário */,
+				EE5A0B4C286DCFE7006F4351 /* Tela Login */,
 				EE255356286B5B5200E0BD99 /* AppDelegate.swift */,
 				EE255358286B5B5200E0BD99 /* SceneDelegate.swift */,
-				EE25535A286B5B5200E0BD99 /* LoginViewController.swift */,
-				EE198164286B7CC500D78948 /* LoginControllerViewModel.swift */,
 				EE25535C286B5B5200E0BD99 /* Main.storyboard */,
-				EE198166286B8D8A00D78948 /* NovaReuniaoViewController.swift */,
-				EE25538C286B6BD200E0BD99 /* CadastroViewController.swift */,
-				EE198162286B7AA700D78948 /* CadastroControllerViewModel.swift */,
-				EE198160286B778400D78948 /* ReunioesViewController.swift */,
 				EE25535F286B5B5300E0BD99 /* Assets.xcassets */,
-				EE198168286B91C100D78948 /* ReunioesControllerViewModel.swift */,
 				EE255361286B5B5300E0BD99 /* LaunchScreen.storyboard */,
 				EE255364286B5B5300E0BD99 /* Info.plist */,
 				EE255386286B5DF300E0BD99 /* GoogleService-Info.plist */,
+				EE5A0B52286DD0B3006F4351 /* Reuniao.xcdatamodeld */,
 			);
 			path = MeetingScheduleApp;
 			sourceTree = "<group>";
@@ -164,6 +187,65 @@
 				EE255379286B5B5300E0BD99 /* MeetingScheduleAppUITestsLaunchTests.swift */,
 			);
 			path = MeetingScheduleAppUITests;
+			sourceTree = "<group>";
+		};
+		EE5A0B4C286DCFE7006F4351 /* Tela Login */ = {
+			isa = PBXGroup;
+			children = (
+				EE25535A286B5B5200E0BD99 /* LoginViewController.swift */,
+				EE198164286B7CC500D78948 /* LoginControllerViewModel.swift */,
+			);
+			path = "Tela Login";
+			sourceTree = "<group>";
+		};
+		EE5A0B4D286DCFFD006F4351 /* Tela Cadastro Usuário */ = {
+			isa = PBXGroup;
+			children = (
+				EE25538C286B6BD200E0BD99 /* CadastroViewController.swift */,
+				EE198162286B7AA700D78948 /* CadastroControllerViewModel.swift */,
+			);
+			name = "Tela Cadastro Usuário";
+			path = "Tela Cadastro Usuário";
+			sourceTree = "<group>";
+		};
+		EE5A0B4E286DD02E006F4351 /* Tela Lista de Reuniões */ = {
+			isa = PBXGroup;
+			children = (
+				EE5A0B6A286DDBEA006F4351 /* Celula Custumizada */,
+				EE198160286B778400D78948 /* ReunioesViewController.swift */,
+				EE198168286B91C100D78948 /* ReunioesControllerViewModel.swift */,
+			);
+			name = "Tela Lista de Reuniões";
+			path = "Tela Lista de Reuniões";
+			sourceTree = "<group>";
+		};
+		EE5A0B4F286DD056006F4351 /* Tela Cadastrar Nova Reunião */ = {
+			isa = PBXGroup;
+			children = (
+				EE198166286B8D8A00D78948 /* NovaReuniaoViewController.swift */,
+				EE5A0B50286DD084006F4351 /* NovaReuniaoControllerViewModel.swift */,
+			);
+			name = "Tela Cadastrar Nova Reunião";
+			path = "Tela Cadastrar Nova Reunião";
+			sourceTree = "<group>";
+		};
+		EE5A0B5D286DD531006F4351 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				EE5A0B55286DD4E7006F4351 /* Reuniao+CoreDataClass copy.swift */,
+				EE5A0B56286DD4E7006F4351 /* Reuniao+CoreDataProperties copy.swift */,
+				EE5A0B5E286DD55F006F4351 /* Service.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		EE5A0B6A286DDBEA006F4351 /* Celula Custumizada */ = {
+			isa = PBXGroup;
+			children = (
+				EE5A0B62286DD99B006F4351 /* ReuniaoTableViewCell.swift */,
+				EE5A0B66286DDA6A006F4351 /* ReuniaoViewModel.swift */,
+			);
+			path = "Celula Custumizada";
 			sourceTree = "<group>";
 		};
 		F1C843E7A04D79E27A27726E /* Frameworks */ = {
@@ -353,14 +435,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE198167286B8D8A00D78948 /* NovaReuniaoViewController.swift in Sources */,
+				EE5A0B5F286DD55F006F4351 /* Service.swift in Sources */,
 				EE198169286B91C100D78948 /* ReunioesControllerViewModel.swift in Sources */,
+				EE5A0B5A286DD4E7006F4351 /* Reuniao+CoreDataProperties copy.swift in Sources */,
 				EE198161286B778400D78948 /* ReunioesViewController.swift in Sources */,
+				EE5A0B67286DDA6A006F4351 /* ReuniaoViewModel.swift in Sources */,
 				EE25535B286B5B5200E0BD99 /* LoginViewController.swift in Sources */,
+				EE5A0B51286DD084006F4351 /* NovaReuniaoControllerViewModel.swift in Sources */,
 				EE255357286B5B5200E0BD99 /* AppDelegate.swift in Sources */,
 				EE198165286B7CC500D78948 /* LoginControllerViewModel.swift in Sources */,
+				EE5A0B54286DD0B3006F4351 /* Reuniao.xcdatamodeld in Sources */,
 				EE255359286B5B5200E0BD99 /* SceneDelegate.swift in Sources */,
 				EE198163286B7AA700D78948 /* CadastroControllerViewModel.swift in Sources */,
+				EE5A0B57286DD4E7006F4351 /* Reuniao+CoreDataClass copy.swift in Sources */,
 				EE25538D286B6BD200E0BD99 /* CadastroViewController.swift in Sources */,
+				EE5A0B63286DD99B006F4351 /* ReuniaoTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -368,7 +457,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE5A0B58286DD4E7006F4351 /* Reuniao+CoreDataClass copy.swift in Sources */,
+				EE5A0B68286DDA6A006F4351 /* ReuniaoViewModel.swift in Sources */,
+				EE5A0B60286DD55F006F4351 /* Service.swift in Sources */,
 				EE25536E286B5B5300E0BD99 /* MeetingScheduleAppTests.swift in Sources */,
+				EE5A0B5B286DD4E7006F4351 /* Reuniao+CoreDataProperties copy.swift in Sources */,
+				EE5A0B64286DD99B006F4351 /* ReuniaoTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -377,7 +471,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE255378286B5B5300E0BD99 /* MeetingScheduleAppUITests.swift in Sources */,
+				EE5A0B5C286DD4E7006F4351 /* Reuniao+CoreDataProperties copy.swift in Sources */,
+				EE5A0B69286DDA6A006F4351 /* ReuniaoViewModel.swift in Sources */,
+				EE5A0B61286DD55F006F4351 /* Service.swift in Sources */,
+				EE5A0B59286DD4E7006F4351 /* Reuniao+CoreDataClass copy.swift in Sources */,
 				EE25537A286B5B5300E0BD99 /* MeetingScheduleAppUITestsLaunchTests.swift in Sources */,
+				EE5A0B65286DD99B006F4351 /* ReuniaoTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -706,6 +805,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EE5A0B52286DD0B3006F4351 /* Reuniao.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EE5A0B53286DD0B3006F4351 /* Reuniao.xcdatamodel */,
+			);
+			currentVersion = EE5A0B53286DD0B3006F4351 /* Reuniao.xcdatamodel */;
+			path = Reuniao.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = EE25534B286B5B5200E0BD99 /* Project object */;
 }

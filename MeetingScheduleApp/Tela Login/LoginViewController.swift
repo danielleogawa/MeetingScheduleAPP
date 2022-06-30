@@ -44,6 +44,8 @@ class LoginViewController: UIViewController {
 extension LoginViewController: LoginControllerViewModelDelegate {
     func loginSucessed() {
         performSegue(withIdentifier: "userMeetings", sender: self)
+        emailTextField.text = ""
+        passwordTextField.text = ""
         emailTextField.layer.borderColor = UIColor.black.cgColor
         passwordTextField.layer.borderColor = UIColor.black.cgColor
     }

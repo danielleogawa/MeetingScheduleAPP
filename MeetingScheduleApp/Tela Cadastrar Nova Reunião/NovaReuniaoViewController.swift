@@ -14,6 +14,8 @@ class NovaReuniaoViewController: UIViewController {
     @IBOutlet weak var dataTextfield: UITextField!
     @IBOutlet weak var horaTextField: UITextField!
     
+    let viewModel = NovaReuniaoControllerViewModel()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         styleTextField()
@@ -48,7 +50,8 @@ class NovaReuniaoViewController: UIViewController {
     }
     
     @IBAction func addButtonAction(_ sender: Any) {
-        
+        viewModel.adicionarReuniao(titulo: tituloTextField.text, descricao: descricaoTextField.text, endereco: enderecoTextField.text, data: dataTextfield.text, horario: horaTextField.text)
+        dismiss(animated: true)
     }
     
 }
